@@ -1,0 +1,56 @@
+body {
+  font-family:'Courier New', Courier, monospace;
+  background-color: #f5f5f5;
+  margin: 0;
+  background-image: url(dabiscollage.jpg);
+  background-size: cover;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+    color:#ffffff;
+    text-align: center;
+}
+
+#songContainer {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 80px;
+  margin-bottom: 20px;
+  background-color: lightgray;
+  opacity: 80%;
+}
+
+#songContainer img {
+  max-width: 20%;
+  height: auto;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#songContainer a {
+    display: block;
+    margin-top: 10px;
+    color:crimson;
+    text-decoration: none;
+}
+
+#nextSongBtn {
+  padding: 10px 20px;
+  background-color: #ff1493;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#nextSongBtn:hover {
+  background-color: #ff69b4;
+}
